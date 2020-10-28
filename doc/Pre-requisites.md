@@ -58,3 +58,33 @@ You'll see, as soon as you open Azure Sentinel, the first thing you need to do i
 The point is, with all of these documents, you need to make decisions about how you're going to configure your Log Analytics workspaces. Our guiding recommended best practice is to have a single workspace, where possible, for the full benefit of the tool. However we understand that there will be issues like data sovereignty and regulatory compliance that will impact these decisions, even billing and cost decisions can impact it.
 
 Whatever the case is you need to make the decision. Centralize as much as possible, having your data going to one location, rather than each team maintaining their own repository, will allow your Security team to start ingesting the data and building patterns while reducing the time it takes for them to find them.
+
+You can then also start making decisions around data retention. Azure Sentinel gives you 90 days of free retention on your Log Analytics workspaces, but then what. What [type of data](https://techcommunity.microsoft.com/t5/azure-sentinel/new-per-data-type-retention-is-now-available-for-azure-sentinel/ba-p/917316) do you need to retain?
+
+### Role Based Access Control (RBAC)
+
+Part of the decisions you will need to make around Log Analytics, and the rest of the platform to be clear, are the access controls. Making these decisions prior to deploying the tool is key, as is working with the relevant team who owns identity in your organisation (typically a disconnect) to ensure the security team have the right permissions, with the least privilege obviously, to accomplish your business requirements.
+
+**This can be achieved a few ways**:
+
+[Workspace level RBAC](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access#configure-access-control-mode)
+
+[Table Level RBAC](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access#table-level-rbac)
+
+[Resource Level RBAC](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment#access-mode)
+
+**Then we have the overarching Azure Sentinel RBAC considerations**:
+
+[Permissions in Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/roles)
+
+As you can see above, you need to make some careful decisions around the level of access people are given.
+
+Make these decisions early, work with the relevant stakeholders to ensure you have the appropriate permissions in order to establish your security operations.
+
+### Data sources
+
+Now that you have made the decisions around Log Analytics and RBAC you need to start  thinking about the data sources you want to connect. Circle back to the use cases. What makes sense to connect to achieve the desired outcomes? What has a "first party" connector? What has a Microsoft connector (CEF/Syslog) that needs a forwarder built? What might need a custom connector (think on-prem Exchange for example). We help here:
+
+[Azure Sentinel Grand Connector List](https://docs.microsoft.com/en-us/azure/sentinel/roles)
+
+[Azure Sentinel Custom Connectors](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-creating-custom-connectors/ba-p/864060)

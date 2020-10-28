@@ -11,5 +11,7 @@ Please give us your feedback on https://aka.ms/ftalive-sen-feedback
 
 Agenda
 1. Pre-requisites
-1. Walk through
-1. Take aways
+
+2. Walk through
+
+3. Take aways

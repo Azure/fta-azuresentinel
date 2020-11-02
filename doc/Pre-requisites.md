@@ -1,6 +1,6 @@
-# Pre-requisites
+# Getting started
 
-During this part of the session you will taught:
+To effectively use a SIEM you need to be deliberate. You need to know what you're trying to achieve, and defining these things before you start will enable you have greater sucess moving forward. 
 
 ## SIEM Decision Points
 

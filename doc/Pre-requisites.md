@@ -9,7 +9,7 @@ To effectively use a SIEM you need to be deliberate. You need to know what you'r
 * Log Analytics decisions
 * Data Sources
 
-The reason we cover this is because you, as the security interest team, need to make these decisions in order to effectively incept, configure and use Sentinel as a tool in your environment for your security operations.
+The reason we cover this is because you, as the security interested team, need to make these decisions in order to effectively incept, configure and use Sentinel as a tool in your environment for your security operations.
 
 At the end of this topic you will be able to accurately describe the need for Use Cases, how you want to establish your Log Analytics deployment, what permissions (RBAC) you need to have in order to use the tool and which data sources you want to connect and the considerations around those (Syslog/CEF forwarders etc).
 

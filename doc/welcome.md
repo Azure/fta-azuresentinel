@@ -10,8 +10,8 @@
 Please give us your feedback on https://aka.ms/ftalive-sen-feedback
 
 Agenda
-1. Pre-requisites
+1. Getting started (Pre-requisites)
 
-2. Walk through
+2. Walk through [Portal](https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade)
 
-3. Take aways
+3. Take aways (Go Do)

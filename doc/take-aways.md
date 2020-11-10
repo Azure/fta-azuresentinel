@@ -16,6 +16,8 @@ Join the Azure Sentinel Community - [Azure Sentinel Tech Community](https://aka.
 
 Plan for your project - [Azure Sentinel DevOps](https://techcommunity.microsoft.com/t5/azure-sentinel/accelerate-your-azure-sentinel-deployment-with-this-azure-devops/ba-p/1449414)
 
+Review the best practices - [Azure Sentinel Best Practices](https://techcommunity.microsoft.com/t5/azure-sentinel/best-practices-for-designing-an-azure-sentinel-or-azure-security/ba-p/832574)
+
 Deploy Sentinel - [Azure Sentinel Onboarding](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
 
 Connect Data Sources - [Azure Sentinel Data Sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)

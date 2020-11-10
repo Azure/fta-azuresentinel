@@ -6,7 +6,7 @@ To effectively use a SIEM you need to be deliberate. You need to know what you'r
 
 ## What is Sentinel?
 
-![Overview](./AZ-Sentinel-Overview.png)
+![Overview](./Az-Sentinel-Overview.png)
 
 ### Sentinel Architecture
 

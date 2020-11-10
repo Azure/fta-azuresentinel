@@ -1,6 +1,16 @@
+#### [prev](./welcome.md) | [home](./welcome.md)  | [next](./take-aways.md)
+
 # Getting started
 
-To effectively use a SIEM you need to be deliberate. You need to know what you're trying to achieve, and defining these things before you start will enable you have greater sucess moving forward. 
+To effectively use a SIEM you need to be deliberate. You need to know what you're trying to achieve, and defining these things before you start will enable you have greater success moving forward.
+
+## What is Sentinel?
+
+![Overview](./AZ-Sentinel-Overview.png)
+
+### Sentinel Architecture
+
+![Azure Sentinel](./Sentinel-Arch.png)
 
 ## SIEM Decision Points
 
@@ -13,7 +23,7 @@ The reason we cover this is because you, as the security interested team, need t
 
 At the end of this topic you will be able to accurately describe the need for Use Cases, how you want to establish your Log Analytics deployment, what permissions (RBAC) you need to have in order to use the tool and which data sources you want to connect and the considerations around those (Syslog/CEF forwarders etc).
 
-### Use Cases
+## Use Cases
 
 As part of our [Azure Sentinel DevOps](https://techcommunity.microsoft.com/t5/azure-sentinel/accelerate-your-azure-sentinel-deployment-with-this-azure-devops/ba-p/1449414) guidance the first section we deal with is defining your use cases. This is important as you move to the cloud, things have changed and are much more dynamic but also amplified by new pillars of threats you are now being exposed to, highlighted below.
 
@@ -45,7 +55,7 @@ Having the right uses cases, and making the decisions about the associated data 
 
 The final point is that they must have a lifecycle, like any methodology in 2020. Plan, Deploy, **Measure Performance**, Tune (if required), Retire and Archive. Threats aren't static and your Security Operations shouldn't be either.
 
-### Log Analytics
+## Log Analytics
 
 You'll see, as soon as you open Azure Sentinel, the first thing you need to do is to select a Log Analytics workspace you want to use. We have a multitude of resources to help you make decisions around Azure Sentinel deployments:
 
@@ -61,7 +71,7 @@ Whatever the case is you need to make the decision. Centralize as much as possib
 
 You can then also start making decisions around data retention. Azure Sentinel gives you 90 days of free retention on your Log Analytics workspaces, but then what. What [type of data](https://techcommunity.microsoft.com/t5/azure-sentinel/new-per-data-type-retention-is-now-available-for-azure-sentinel/ba-p/917316) do you need to retain?
 
-### Role Based Access Control (RBAC)
+## Role Based Access Control (RBAC)
 
 Part of the decisions you will need to make around Log Analytics, and the rest of the platform to be clear, are the access controls. Making these decisions prior to deploying the tool is key, as is working with the relevant team who owns identity in your organisation (typically a disconnect) to ensure the security team have the right permissions, with the least privilege obviously, to accomplish your business requirements.
 
@@ -81,7 +91,7 @@ As you can see above, you need to make some careful decisions around the level o
 
 Make these decisions early, work with the relevant stakeholders to ensure you have the appropriate permissions in order to establish your security operations.
 
-### Data sources
+## Data sources
 
 Now that you have made the decisions around Log Analytics and RBAC you need to start  thinking about the data sources you want to connect. Circle back to the use cases. What makes sense to connect to achieve the desired outcomes? What has a "first party" connector? What has a Microsoft connector (CEF/Syslog) that needs a forwarder built? What might need a custom connector (think on-prem Exchange for example). We help here:
 

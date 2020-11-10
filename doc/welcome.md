@@ -1,7 +1,7 @@
 # Welcome to the FastTrack for Azure Azure Sentinel Call
 ## We will start 3-4 minutes after the scheduled time to accommodate those still connecting
 
-#### [home](./welcome.md)  | [next](./prerquisites.md)
+#### [home](./welcome.md)  | [next](./pre-requisites.md)
 
 > This call will not be recorded due to the wide audience and to encourage questions.
 

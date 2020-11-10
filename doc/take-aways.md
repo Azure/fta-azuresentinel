@@ -19,3 +19,5 @@ Plan for your project - [Azure Sentinel DevOps](https://techcommunity.microsoft.
 Deploy Sentinel - [Azure Sentinel Onboarding](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
 
 Connect Data Sources - [Azure Sentinel Data Sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
+
+Starting planning for as you mature the product. Plan for measuring your response times, improving your alerting content and building your Orchestration and Automation capability. "If this happens, then our response will be..." - [Respond to threats](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-respond-threats-playbook)

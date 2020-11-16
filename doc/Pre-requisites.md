@@ -95,7 +95,7 @@ Make these decisions early, work with the relevant stakeholders to ensure you ha
 
 Now that you have made the decisions around Log Analytics and RBAC you need to start  thinking about the data sources you want to connect. Circle back to the use cases. What makes sense to connect to achieve the desired outcomes? What has a "first party" connector? What has a Microsoft connector (CEF/Syslog) that needs a forwarder built? What might need a custom connector (think on-prem Exchange for example). We help here:
 
-[Azure Sentinel Grand Connector List](https://docs.microsoft.com/en-us/azure/sentinel/roles)
+[Azure Sentinel Grand Connector List](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-the-connectors-grand-cef-syslog-direct-agent/ba-p/803891#:~:text=The%20Grand%20List%20%20%20Vendor%20%20,Sentinel%20built-in%20connector%20%2032%20more%20rows%20)
 
 [Azure Sentinel Custom Connectors](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-creating-custom-connectors/ba-p/864060)
 

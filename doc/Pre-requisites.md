@@ -69,6 +69,8 @@ The point is, with all of these documents, you need to make decisions about how 
 
 Whatever the case is you need to make the decision. Centralize as much as possible, having your data going to one location, rather than each team maintaining their own repository, will allow your Security team to start ingesting the data and building patterns while reducing the time it takes for them to find them.
 
+[Planning your Log Analytics Deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment)
+
 You can then also start making decisions around data retention. Azure Sentinel gives you 90 days of free retention on your Log Analytics workspaces, but then what. What [type of data](https://techcommunity.microsoft.com/t5/azure-sentinel/new-per-data-type-retention-is-now-available-for-azure-sentinel/ba-p/917316) do you need to retain?
 
 ## Role Based Access Control (RBAC)

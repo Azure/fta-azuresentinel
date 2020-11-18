@@ -22,4 +22,6 @@ Deploy Sentinel - [Azure Sentinel Onboarding](https://docs.microsoft.com/en-us/a
 
 Connect Data Sources - [Azure Sentinel Data Sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
 
+Parse your data - [Parse data in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/parse-text#simple-text-patterns)
+
 Starting planning for as you mature the product. Plan for measuring your response times, improving your alerting content and building your Orchestration and Automation capability. "If this happens, then our response will be..." - [Respond to threats](https://docs.microsoft.com/en-us/azure/sentinel/tutorial-respond-threats-playbook)

@@ -12,7 +12,7 @@
 Please give us your feedback on https://aka.ms/ftalive-americas-sentinel-feedback
 
 Agenda
-1. [Getting started (Pre-requisites)](./Pre-requisites.md)
+1. [Getting started (Prerequisites)](./Pre-requisites.md)
 
 2. [Walk through [Portal]](https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade)
 

@@ -1,0 +1,1 @@
+# Welcome to the FastTrack for Azure Azure Sentinel Call

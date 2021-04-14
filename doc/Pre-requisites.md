@@ -73,6 +73,8 @@ Whatever the case is you need to make the decision. Centralize as much as possib
 
 You can then also start making decisions around data retention. Azure Sentinel gives you 90 days of free retention on your Log Analytics workspaces, but then what. What [type of data](https://techcommunity.microsoft.com/t5/azure-sentinel/new-per-data-type-retention-is-now-available-for-azure-sentinel/ba-p/917316) do you need to retain?
 
+* Appendix: [FastTrack for Azure Azure Sentinel on Azure Log Analytics Workspace considerations](appendix-law-refs.md)
+
 ## Role Based Access Control (RBAC)
 
 Part of the decisions you will need to make around Log Analytics, and the rest of the platform to be clear, are the access controls. Making these decisions prior to deploying the tool is key, as is working with the relevant team who owns identity in your organisation (typically a disconnect) to ensure the security team have the right permissions, with the least privilege obviously, to accomplish your business requirements.

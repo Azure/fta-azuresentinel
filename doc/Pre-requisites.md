@@ -53,7 +53,7 @@ These use cases are important, you need to understand what Insight you're trying
 
 Having the right uses cases, and making the decisions about the associated data and analytics makes it easier to ensure you're covering all the things you need to cover in your environment. They should reduced the *noise* and allow your analysts to focus on what is important in your environment.
 
-The final point is that they must have a lifecycle, like any methodology in 2020. Plan, Deploy, **Measure Performance**, Tune (if required), Retire and Archive. Threats aren't static and your Security Operations shouldn't be either.
+The final point is that they must have a lifecycle, like any methodology in the 2020s. Plan, Deploy, **Measure Performance**, Tune (if required), Retire and Archive. Threats aren't static and your Security Operations shouldn't be either.
 
 ## Log Analytics
 

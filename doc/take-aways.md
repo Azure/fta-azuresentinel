@@ -4,23 +4,23 @@
 
 ## From here you now understand
 
-* What Sentinel is
+* Sentinel's SIEM and SOAR capabilities
 * The pre-requisites to get started, and
 * How to navigate the tool
 
 ## Go Do
 
-Learn - [Azure Sentinel Ninja Training](https://techcommunity.microsoft.com/t5/azure-sentinel/become-an-azure-sentinel-ninja-the-complete-level-400-training/ba-p/1246310)
+Learn - [Microsoft Sentinel Ninja Training](https://techcommunity.microsoft.com/t5/azure-sentinel/become-an-azure-sentinel-ninja-the-complete-level-400-training/ba-p/1246310)
 
-Join the Azure Sentinel Community - [Azure Sentinel Tech Community](https://aka.ms/ASICommunity)
+Join the Microsoft Sentinel Community - [Microsoft Sentinel Tech Community](https://aka.ms/ASICommunity)
 
-Plan for your project - [Azure Sentinel DevOps](https://techcommunity.microsoft.com/t5/azure-sentinel/accelerate-your-azure-sentinel-deployment-with-this-azure-devops/ba-p/1449414)
+Plan for your project - [Microsoft Sentinel DevOps](https://techcommunity.microsoft.com/t5/azure-sentinel/accelerate-your-azure-sentinel-deployment-with-this-azure-devops/ba-p/1449414)
 
-Review the best practices - [Azure Sentinel Best Practices](https://techcommunity.microsoft.com/t5/azure-sentinel/best-practices-for-designing-an-azure-sentinel-or-azure-security/ba-p/832574)
+Review the best practices - [Microsoft Sentinel Best Practices](https://techcommunity.microsoft.com/t5/azure-sentinel/best-practices-for-designing-an-azure-sentinel-or-azure-security/ba-p/832574)
 
-Deploy Sentinel - [Azure Sentinel Onboarding](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
+Deploy Sentinel - [Microsoft Sentinel Onboarding](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
 
-Connect Data Sources - [Azure Sentinel Data Sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
+Connect Data Sources - [Microsoft Sentinel Data Sources](https://docs.microsoft.com/en-us/azure/sentinel/connect-data-sources)
 
 Parse your data - [Parse data in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/parse-text#simple-text-patterns)
 

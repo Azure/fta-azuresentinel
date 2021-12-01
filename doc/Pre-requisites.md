@@ -25,7 +25,7 @@ At the end of this topic you will be able to accurately describe the need for Us
 
 ## Use Cases
 
-As part of our [Azure Sentinel DevOps](https://techcommunity.microsoft.com/t5/azure-sentinel/accelerate-your-azure-sentinel-deployment-with-this-azure-devops/ba-p/1449414) guidance the first section we deal with is defining your use cases. This is important as you move to the cloud, things have changed and are much more dynamic but also amplified by new pillars of threats you are now being exposed to, highlighted below.
+As part of our [Microsoft Sentinel DevOps](https://techcommunity.microsoft.com/t5/azure-sentinel/accelerate-your-azure-sentinel-deployment-with-this-azure-devops/ba-p/1449414) guidance the first section we deal with is defining your use cases. This is important as you move to the cloud, things have changed and are much more dynamic but also amplified by new pillars of threats you are now being exposed to, highlighted below.
 
 **Examples of the new security pillars (not an exhaustive list)**:
 
@@ -34,7 +34,7 @@ As part of our [Azure Sentinel DevOps](https://techcommunity.microsoft.com/t5/az
 | **Tenant Level** | **Subscription Level** | **IaaS** | **PaaS** | **SaaS** |
 | Use elevated tenant admin | External account added to subscription | Known hacker/malicious tool/process found | Malicious Key Vault access - keys enumerated | A potentially malicious URL click was detected |
 | MFA settings changed | Stale account with access to subscription | Account Password Hash Accessed | Anonymous storage access | Unusual volume of external file sharing |
-|   | Attack detection service not configured (ie ASC) | Antimalware disabled | activity from unfamiliar location | Password spray attack |
+|   | Attack detection service not configured (ie Microsoft Defender for cloud) | Antimalware disabled | activity from unfamiliar location | Password spray attack |
 |   |   | Brute force detected | SQL injection detected |   |
 |   |   | Communications with malicious IP | Authentications disabled for App/Web services |   |
 |   |   | TOR IP detected |   |   |
@@ -63,17 +63,18 @@ You'll see, as soon as you open Azure Sentinel, the first thing you need to do i
 
 [Tech Community Blog](https://techcommunity.microsoft.com/t5/azure-sentinel/best-practices-for-designing-an-azure-sentinel-or-azure-security/ba-p/832574)
 
-[Extend Azure Sentinel across workspaces and tenants](https://docs.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants)
+[Extend Microsoft Sentinel across workspaces and tenants](https://docs.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants)
 
 The point is, with all of these documents, you need to make decisions about how you're going to configure your Log Analytics workspaces. Our guiding recommended best practice is to have a single workspace, where possible, for the full benefit of the tool. However we understand that there will be issues like data sovereignty and regulatory compliance that will impact these decisions, even billing and cost decisions can impact it.
 
 Whatever the case is you need to make the decision. Centralize as much as possible, having your data going to one location, rather than each team maintaining their own repository, will allow your Security team to start ingesting the data and building patterns while reducing the time it takes for them to find them.
 
 [Planning your Log Analytics Deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/design-logs-deployment)
+[Sentinel Log Analtyics Decision Tree](https://docs.microsoft.com/en-us/azure/sentinel/design-your-workspace-architecture#decision-tree)
 
 You can then also start making decisions around data retention. Azure Sentinel gives you 90 days of free retention on your Log Analytics workspaces, but then what. What [type of data](https://techcommunity.microsoft.com/t5/azure-sentinel/new-per-data-type-retention-is-now-available-for-azure-sentinel/ba-p/917316) do you need to retain?
 
-* Appendix: [FastTrack for Azure Azure Sentinel on Azure Log Analytics Workspace considerations](appendix-law-refs.md)
+* Appendix: [FastTrack for Azure Microsoft Sentinel on Azure Log Analytics Workspace considerations](appendix-law-refs.md)
 
 ## Role Based Access Control (RBAC)
 
@@ -89,7 +90,7 @@ Part of the decisions you will need to make around Log Analytics, and the rest o
 
 **Then we have the overarching Azure Sentinel RBAC considerations**:
 
-[Permissions in Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/roles)
+[Permissions in Microsoft Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/roles)
 
 As you can see above, you need to make some careful decisions around the level of access people are given.
 
@@ -99,8 +100,8 @@ Make these decisions early, work with the relevant stakeholders to ensure you ha
 
 Now that you have made the decisions around Log Analytics and RBAC you need to start  thinking about the data sources you want to connect. Circle back to the use cases. What makes sense to connect to achieve the desired outcomes? What has a "first party" connector? What has a Microsoft connector (CEF/Syslog) that needs a forwarder built? What might need a custom connector (think on-prem Exchange for example). We help here:
 
-[Azure Sentinel Grand Connector List](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-the-connectors-grand-cef-syslog-direct-agent/ba-p/803891#:~:text=The%20Grand%20List%20%20%20Vendor%20%20,Sentinel%20built-in%20connector%20%2032%20more%20rows%20)
+[Microsoft Sentinel Grand Connector List](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-the-connectors-grand-cef-syslog-direct-agent/ba-p/803891#:~:text=The%20Grand%20List%20%20%20Vendor%20%20,Sentinel%20built-in%20connector%20%2032%20more%20rows%20)
 
-[Azure Sentinel Custom Connectors](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-creating-custom-connectors/ba-p/864060)
+[Microsoft Sentinel Custom Connectors](https://techcommunity.microsoft.com/t5/azure-sentinel/azure-sentinel-creating-custom-connectors/ba-p/864060)
 
 #### [prev](./welcome.md) | [home](./welcome.md)  | [next](./take-aways.md)

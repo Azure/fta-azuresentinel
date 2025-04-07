@@ -1,3 +1,6 @@
+# IMPORTANT
+
+With the disbanding of the FastTrack for Azure organization within Microsoft, this repository has been archived.
 
 # Contributing
 
